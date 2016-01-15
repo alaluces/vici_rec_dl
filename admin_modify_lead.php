@@ -1822,7 +1822,7 @@ else
 			echo "<td align=left><font size=2> $location </td>\n";
 			//==========MODIFIED BY ARIES===========================================
 			$client = ereg_replace("[^0-9]","",$_SERVER['REMOTE_ADDR']); 
-			echo "<td align=left><font size=2> <A HREF=\"/client/rec_dl.php?file_name=$row[10]&client_ip=$client \" target=\"_blank\">DOWNLOAD</A> </td>\n";
+			echo "<td align=left><font size=2> <A HREF=\"/converter/vici.php?file_name=$row[10]&client_ip=$client \" target=\"_blank\">DOWNLOAD</A> </td>\n";
 			//======================================================================
 			echo "<td align=left><font size=2> <A HREF=\"user_stats.php?user=$row[13]\" target=\"_blank\">$row[13]</A> </td>";
 			echo "</tr>\n";
